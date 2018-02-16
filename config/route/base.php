@@ -4,7 +4,7 @@
  */
 $app->router->add("", function () use ($app) {
     $app->view->add("header/header", ["title" => "Home"]);
-    $app->view->add("header/navbar");
+    $app->view->add("navbar1/navbar");
     $app->view->add("contains/home");
     $app->view->add("footer/footer");
 
@@ -14,7 +14,7 @@ $app->router->add("", function () use ($app) {
 
 $app->router->add("about", function () use ($app) {
     $app->view->add("header/header", ["title" => "About"]);
-    $app->view->add("header/navbar");
+    $app->view->add("navbar1/navbar");
     $app->view->add("contains/about");
     $app->view->add("footer/footer");
 
@@ -24,7 +24,7 @@ $app->router->add("about", function () use ($app) {
 
 $app->router->add("report", function () use ($app) {
     $app->view->add("header/header", ["title" => "Report"]);
-    $app->view->add("header/navbar");
+    $app->view->add("navbar1/navbar");
     $app->view->add("contains/report");
     $app->view->add("footer/footer");
 
