@@ -22,6 +22,16 @@ $app->router->add("about", function () use ($app) {
               ->send();
 });
 
+$app->router->add("report", function () use ($app) {
+    $app->view->add("header/header", ["title" => "Report"]);
+    $app->view->add("header/navbar");
+    $app->view->add("contains/report");
+    $app->view->add("footer/footer");
+
+    $app->response->setBody([$app->view, "render"])
+              ->send();
+});
+
 
 $app->router->add("status", function () use ($app) {
     $data = [

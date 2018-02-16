@@ -17,7 +17,9 @@
       <p>Här nedanför länken till min repo på gitHub : <p>
       <p><i><a href="https://github.com/gmiak/anax-lite-beta">Klick här!</a></i></p>
       <p>Klick på länken för att komma fram till min status sida</p>
-      <p><i><a href="http://www.student.bth.se/~geka16/dbwebb-kurser/oophp/me/anax-lite/htdocs/status">Status</a></i></p>
+      <p><i><a href="status">Status</a></i></p>
+      <p>Länken till spelet "Guess the number"</p>
+      <p><i><a href="http://www.student.bth.se/~geka16/dbwebb-kurser/oophp/me/kmom01/guess/">Guess the number</a></i></p>
       <footer>
         <h6>OOPHP</h6>
       </footer>
